@@ -1,0 +1,89 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --dark-cyan2: hsl(179, 100%, 13%);
+  --trans-white: hsla(0, 0%, 100%, 0.75);
+  --light-grey: hsl(0, 0%, 95%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--light-grey);
+  text-align: center;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    background-color: saddlebrown;
+    margin: 100px auto 30px;
+    border-radius: 10px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.6;
+  }
+  .card {
+    padding: 48px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+  }
+  .card1 {
+    background-color: var(--bright-orange);
+    border-radius: 10px 0 0 10px;
+  }
+  .card2 {
+    background-color: var(--dark-cyan);
+  }
+  .card3 {
+    background-color: var(--dark-cyan2);
+    border-radius: 0 10px 10px 0;
+  }
+
+  .text h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: var(--light-grey);
+  }
+
+  .text p {
+    color: var(--trans-white);
+    margin: 30px auto;
+  }
+  .btn {
+    color: #000000;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+  }
+  .btn1 {
+    color: var(--bright-orange);
+  }
+  .btn2 {
+    color: var(--dark-cyan);
+  }
+  .btn3 {
+    color: var(--dark-cyan2);
+  }
+  .btn:hover {
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
