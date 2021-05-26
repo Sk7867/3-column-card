@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Sk7867/3-column-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [URL](https://sk7867.github.io/3-column-card/)
 
 ### Built with
 
@@ -39,5 +39,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Sk7867](https://www.frontendmentor.io/profile/Sk7867)
