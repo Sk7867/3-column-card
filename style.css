@@ -15,75 +15,91 @@ body {
   font-size: 15px;
 }
 
-@media only screen and (min-width: 1000px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    background-color: saddlebrown;
-    margin: 100px auto 30px;
-    border-radius: 10px;
-    font-family: 'Lexend Deca';
-    font-weight: 400;
-    text-align: left;
-    line-height: 1.6;
-  }
-  .card {
-    padding: 48px;
-    font-family: 'Lexend Deca';
-    font-weight: 400;
-  }
-  .card1 {
-    background-color: var(--bright-orange);
-    border-radius: 10px 0 0 10px;
-  }
-  .card2 {
-    background-color: var(--dark-cyan);
-  }
-  .card3 {
-    background-color: var(--dark-cyan2);
-    border-radius: 0 10px 10px 0;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 10px auto 10px;
+  border-radius: 10px;
+  text-align: left;
+}
 
-  .text h1 {
-    font-family: 'Big Shoulders Display';
-    font-weight: 700;
-    color: var(--light-grey);
-  }
+.card {
+  padding: 48px;
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+}
 
-  .text p {
-    color: var(--trans-white);
-    margin: 30px auto;
-  }
-  .btn {
-    color: #000000;
-    background-color: white;
-    width: 100%;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 30px;
-    transition: all 0.2s ease-in-out;
-  }
-  .btn1 {
-    color: var(--bright-orange);
-  }
-  .btn2 {
-    color: var(--dark-cyan);
-  }
-  .btn3 {
-    color: var(--dark-cyan2);
-  }
-  .btn:hover {
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-  }
+.card1 {
+  background: var(--bright-orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.card2 {
+  background: var(--dark-cyan);
+}
+
+.card3 {
+  background: var(--dark-cyan2);
+  border-radius: 0 0 10px 10px;
+}
+
+.text h1 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  color: var(--light-grey);
+}
+
+.text p {
+  color: var(--trans-white);
+  margin: 20px auto 70px;
+}
+
+.btn {
+  color: #000000;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 700;
+}
+.btn1 {
+  color: var(--bright-orange);
+}
+.btn2 {
+  color: var(--dark-cyan);
+}
+.btn3 {
+  color: var(--dark-cyan2);
+}
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+    margin: 100px auto 20px;
+    width: 60%;
+  }
+
+  .card1 {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card3 {
+    border-radius: 0 10px 10px 0;
+  }
 }
